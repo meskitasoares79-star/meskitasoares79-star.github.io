@@ -1,0 +1,21 @@
+/* PIBIC 2024/2025 - focused editorial case study */
+.pibic-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:-12px 0 35px}
+.pibic-metric{border:1px solid #514519;background:#131416;border-radius:11px;padding:18px 16px;min-height:108px}
+.pibic-metric b{display:block;color:#facc15;font:700 30px/1.2 'Space Grotesk',sans-serif;margin-bottom:8px}
+.pibic-metric span{font-size:11px;color:#c2c8d0;line-height:1.45;display:block}
+.pibic-steps{display:grid;gap:10px;margin-top:18px}
+.pibic-step{display:grid;grid-template-columns:42px minmax(0,1fr);gap:13px;padding:12px;border:1px solid #35383f;border-radius:10px;background:#131519}
+.pibic-step .step-n{color:#facc15;font:700 13px/1.5 monospace}
+.pibic-step strong{display:block;font-size:13px;margin-bottom:3px}
+.pibic-step p{margin:0;font-size:12px;line-height:1.6;color:#bac2cc}
+.pibic-issues,.pibic-findings{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:16px}
+.pibic-issue,.pibic-finding{padding:16px;background:#14171b;border:1px solid #343943;border-radius:10px}
+.pibic-issue strong,.pibic-finding strong{font-size:13px;display:block;margin-bottom:8px;color:#f1f1f1}
+.pibic-issue p,.pibic-finding p{font-size:12px;line-height:1.7;margin-bottom:0;color:#bfc6d0}
+.pibic-finding small{display:block;color:#facc15;letter-spacing:.1em;text-transform:uppercase;font-size:9px;margin-bottom:8px}
+.pibic-finding{grid-column:span 2}
+.pibic-figure-note{color:#aab2be;line-height:1.65;font-size:12px;margin:5px 0 18px}
+.pibic-gallery .detail-figure img{height:230px;object-fit:contain}
+.pibic-gallery .detail-figure figcaption{font-size:12px;line-height:1.55}
+@media(max-width:850px){.pibic-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.pibic-issues{grid-template-columns:1fr}}
+@media(max-width:500px){.pibic-metrics{gap:8px}.pibic-metric{padding:12px}.pibic-metric b{font-size:25px}.pibic-metric span{font-size:10px}.pibic-finding{grid-column:1/-1}}
